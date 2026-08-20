@@ -1,0 +1,9 @@
+#To keep state files, secrets and local variable values out of github
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.pem
+*.key
+.env
+crash.log
