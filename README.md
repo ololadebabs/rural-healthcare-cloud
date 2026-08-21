@@ -26,4 +26,13 @@ Phase 1 demonstrated how Terraform can be used to create a repeatable and versio
 Phase 2 - Subnet Design and High Availability
 We will use 2 AZs and each AZ will host 2 subnets(private and public). This gives network segmentation and prepares architecture for high availability
 EC2 instances launched into those public subnets can automatically receive public IPv4 addresses, subject to the rest of the network configuration.
+
+Day 2 – Network Segmentation, Routing & Security
+Created two public and two private subnets across two Availability Zones.
+Deployed and attached an Internet Gateway.
+Configured public and private route tables.
+Associated public subnets with internet-facing routes.
+Isolated private subnets from direct internet access.
+Created security groups for public-facing and private application resources.
+Implemented security-group-to-security-group access for the private application layer.
 */
